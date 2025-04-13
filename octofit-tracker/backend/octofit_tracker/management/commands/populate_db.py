@@ -55,7 +55,7 @@ class Command(BaseCommand):
         Workout.objects.create(id=ObjectId(), name="Squats", description="Do 15 squats")
         logger.debug('Workout created: Squats')
 
-        logger.debug('Database population script completed successfully.')
+        logger.debug('Database population script completed successfully. Added test data for')
         self.stdout.write(self.style.SUCCESS('Database populated with test data for'))
 
         # Function to find and pretty print one user and one workout
