@@ -56,7 +56,7 @@ class Command(BaseCommand):
         logger.debug('Workout created: Squats')
 
         logger.debug('Database population script completed successfully.')
-        self.stdout.write(self.style.SUCCESS('Database populated with test data'))
+        self.stdout.write(self.style.SUCCESS('Database populated with test data for'))
 
         # Function to find and pretty print one user and one workout
         def find_and_print_one_user_and_workout():
